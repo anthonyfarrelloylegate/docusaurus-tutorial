@@ -21,38 +21,33 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://anthonyfarrelloylegate.github.io', // Your website URL
+  title: 'Reporting Documentation', // Title for your website.
+  tagline: 'A website for developer documentation and release information.',
+  url: 'https://anthonyfarrelloylegate.github.io/docusaurus-tutorial', // Your website URL
   baseUrl: '/docusaurus-tutorial/', // The name of your GitHub project.
-  organizationName: 'anthonyfarrelloylegate' // Your GitHub username.
+  organizationName: 'anthonyfarrelloylegate',
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
-
+  projectName: 'docusaurus-tutorial',
+  //https://anthonyfarrelloylegate.github.io/docusaurus-tutorial/
+ // GIT_USER=anthonyfarrelloylegate CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'releases/rc', label: 'Developer Docs'},
+    {page: 'help', label: 'Help'}
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
+  headerIcon: 'img/undraw_analytics_5pgy.svg',
+  footerIcon: 'img/undraw_analytics_5pgy.svg',
   favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#623403',
-    secondaryColor: '#442402',
+    primaryColor: '#051243',
+    secondaryColor: '#0530ad',
   },
 
   /* Custom fonts for website */
@@ -70,7 +65,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} IBM`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

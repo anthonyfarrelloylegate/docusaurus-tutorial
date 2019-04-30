@@ -21,17 +21,17 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
-      title: 'Browse Docs',
+      content: `Learn more by contacting the **[Reporting team.](${docUrl(
+        'helpteamcontacts',
+      )})**`,
+      title: 'Contact Details',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
+      content: `Learn more through our **[slack channels.](${docUrl('helpslack',)})**`,
+      title: 'Join our communities',
     },
     {
-      content: "Find out what's new with this project",
+      content: "Learn more by reading **[official documentation](https://www.ibm.com/support/knowledgecenter/en/SSRMV7/com.ibm.iwcm.doc_1.0.0/reporting/t_reporting.html)**. Learn how to update this site using **[Docusaurus](https://docusaurus.io)**",
       title: 'Stay up to date',
     },
   ];
@@ -43,7 +43,7 @@ function Help(props) {
           <header className="postHeader">
             <h1>Need help?</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>This project is maintained by a dedicated project team.</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

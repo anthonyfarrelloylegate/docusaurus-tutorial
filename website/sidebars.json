@@ -1,10 +1,8 @@
 {
   "docs": {
-    "Docusaurus": ["doc1", "anthony"],
-    "First Category": ["doc2","anthony"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "Releases": ["releases/ReleaseSchedule","releases/rc", "releases/releaseprocess", "releases/streams","releases/cipipeline","releases/fvtpipeline"],
+    "Getting Started": ["started/rtc","started/git","started/bootstrap","started/buildCL","started/runningCL","started/jenkinsCL"],
+    "Building Documentation": ["builddoc/docbuild"]
+
   }
 }
