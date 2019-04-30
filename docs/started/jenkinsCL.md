@@ -1,6 +1,6 @@
 ---
-id: anthony
-title: Hello Anthony
+id: jenkinsCL
+title: Jenkins commands that form smoke test
 ---
 
 Hello F8! I'm at the Docusaurus classroom session!

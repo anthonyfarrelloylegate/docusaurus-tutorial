@@ -93,7 +93,7 @@ class Index extends React.Component {
               '  The IBM Watson Care Manager Reporting application is built on **[IBM Cognos Analytics](https://www.ibm.com/support/knowledgecenter/SSEP7J_11.1.0/com.ibm.swg.ba.cognos.cbi.doc/welcome.html)**',
             image: `${baseUrl}img/undraw_data_xmfy.svg`,
             imageAlign: 'left',
-            title: 'What is Watson Care Manager Reporting',
+            title: 'What is Watson Care Manager Reporting?',
           },
         ]}
       </Block>
