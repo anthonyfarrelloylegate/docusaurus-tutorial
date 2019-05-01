@@ -15,6 +15,8 @@ node -v
 ```
 See also **[Docusaurus installation page](https://docusaurus.io/docs/en/installation)**.
 
+to create a new book - npx docusaurus-init
+
 ### `Build and Display your Site Locally`
 Build and render your site in your browser.
 
@@ -30,4 +32,4 @@ in progress... comming soon.
 1
 2
 3
-``
+```

@@ -1,7 +1,7 @@
 {
   "docs": {
     "Releases": ["releases/ReleaseSchedule","releases/rc", "releases/releaseprocess", "releases/streams","releases/cipipeline","releases/fvtpipeline","releases/oss"],
-    "Getting Started": ["started/rtc","started/git","started/bootstrap","started/buildCL","started/runningCL","started/jenkinsCL"],
+    "Getting Started": ["started/started", "started/rtc","started/git","started/bootstrap","started/buildCL","started/runningCL","started/jenkinsCL"],
     "Building Documentation": ["builddoc/docbuild"]
 
   }

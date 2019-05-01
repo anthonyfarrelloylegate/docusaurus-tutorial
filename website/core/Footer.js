@@ -25,17 +25,21 @@ class Footer extends React.Component {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
-            {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-                width="66"
-                height="58"
-              />
-            )}
-          </a>
-          <a href="https://github.com/">GitHub</a>
+
+        <a href="https://github.ibm.com/WH-GovHHS/WCM-Reporting">WCM Reporting on Github</a>
+        <a href="https://github.ibm.com/WH-GovHHS/WCM-Reporting">WCM Reporting Documenation on Github</a>
+        <a
+          href="https://docusaurus.io/en/versions"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="fbOpenSource">
+          <img
+            src={`${this.props.config.baseUrl}img/docusaurus.ico`}
+            alt="Docusaurus"
+            width="30"
+            height="30"
+          />Docusaurus
+        </a>
         <a
           href="https://opensource.facebook.com/"
           target="_blank"

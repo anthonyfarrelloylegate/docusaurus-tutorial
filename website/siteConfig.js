@@ -32,7 +32,7 @@ const siteConfig = {
  // GIT_USER=anthonyfarrelloylegate CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'releases/rc', label: 'Developer Docs'},
+    {doc: 'started/started', label: 'Developer Docs'},
     {page: 'help', label: 'Help'}
   ],
 
@@ -83,7 +83,7 @@ const siteConfig = {
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
-
+  docsSideNavCollapsible: true,
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
 
