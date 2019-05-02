@@ -23,13 +23,15 @@ const users = [
 const siteConfig = {
   title: 'Reporting Documentation', // Title for your website.
   tagline: 'A website for developer documentation and release information.',
-  url: 'https://anthonyfarrelloylegate.github.io/docusaurus-tutorial', // Your website URL
-  baseUrl: '/docusaurus-tutorial/', // The name of your GitHub project.
-  organizationName: 'anthonyfarrelloylegate',
+  organizationName: 'GovHHS',
+  projectName: 'wcm-reporting-developer-book',
+
+  url: 'https://pages.github.ibm.com/WH-GovHHS/wcm-reporting-developer-book/', // Your website URL
+  baseUrl: '/wcm-reporting-developer-book/', // The name of your GitHub project.
   // Used for publishing and more
-  projectName: 'docusaurus-tutorial',
   //https://anthonyfarrelloylegate.github.io/docusaurus-tutorial/
- // GIT_USER=anthonyfarrelloylegate CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
+  //https://github.ibm.com/WH-GovHHS/wcm-reporting-developer-book.git
+ // GIT_USER=anthonyfarrell CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'started/started', label: 'Developer Docs'},

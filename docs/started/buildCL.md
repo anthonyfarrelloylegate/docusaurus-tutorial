@@ -2,6 +2,9 @@
 id: buildCL
 title: Building from the command line
 ---
+The following tasks allow you to build reporting projects and to create a release zip.
+
+Building the Java applications creates a fat jar files where the application code is bundled together with infra-structure code to create cloud friendly deployment artifacts.
 
 ### Verify your build environment Building from the Command Line
 
@@ -19,19 +22,18 @@ scCreateDistribution - This tasks gathers the files required for a candidate rel
 scCreateZipRelease - Package the release zip
 ```
 
-### Building from the Command Line
+### Building All from the Command Line
 
 To build Reporting executable and to package a release zip execute the following commands.
 ```
 ./gradlew bootJar
 ./gradlew scCreateZipRelease
 ```
-### Reporting on Cloud Project infrastructure
 
-There are two categories of projects with Reporting On Cloud.  The first category of projects support the addition of new business features. The second category are projects which provide technical infra-structure, e.g.  our custom ETL application.
+### Build single Application from the Command Line
 
-Projects to support business features.
+To build an individual application run the following command for example, simply prepend the project name before the task name.
 
-* **ReportingCognosContent**.  This project contains all Cognos artifacts.
-* ReportingSchema.  This project contains all database schema and ETL artifacts.
-* ReportingSchemaUpgrade.  This project contains metadata to upgrade Reporting schema.
+```
+./gradlew :ETLApplication:bootJar
+```

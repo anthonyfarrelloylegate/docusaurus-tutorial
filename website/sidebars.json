@@ -1,7 +1,7 @@
 {
   "docs": {
-    "Releases": ["releases/ReleaseSchedule","releases/rc", "releases/releaseprocess", "releases/streams","releases/cipipeline","releases/fvtpipeline","releases/oss"],
-    "Getting Started": ["started/started", "started/rtc","started/git","started/bootstrap","started/buildCL","started/runningCL","started/jenkinsCL"],
+    "Releases": ["releases/ReleaseSchedule","releases/rc", "releases/streams","releases/releaseprocess","releases/cipipeline","releases/fvtpipeline","releases/oss"],
+    "Getting Started": ["started/started", "started/rtc","started/git","started/bootstrap","started/projstruct","started/buildCL","started/runningCL","started/cipipeline"],
     "Building Documentation": ["builddoc/docbuild"]
 
   }

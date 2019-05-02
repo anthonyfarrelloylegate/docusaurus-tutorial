@@ -1,15 +1,17 @@
 ---
 id: streams
-title: Streaming Picture
+title: Streams View
 ---
 
 ## Streams View
+Below are the 4 streams for Reporting.
+![Streams](assets/streams.png)
 
-Update the table after each code promotion.
+You must update the table after each code promotion.
 
 | Stream  |Release   |Sprint   |
 |---|---|---|
-|Mainline | -  | -  |
+|Mainline | 19:06  | 1.1.73  |
 |Candidate |-   |-   |
 |Stabilization   |-   |-   |
 |Live   | -  | -  |

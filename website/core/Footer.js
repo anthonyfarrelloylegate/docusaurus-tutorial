@@ -29,7 +29,7 @@ class Footer extends React.Component {
         <a href="https://github.ibm.com/WH-GovHHS/WCM-Reporting">WCM Reporting on Github</a>
         <a href="https://github.ibm.com/WH-GovHHS/WCM-Reporting">WCM Reporting Documenation on Github</a>
         <a
-          href="https://docusaurus.io/en/versions"
+          href="https://docusaurus.io"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
