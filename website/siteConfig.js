@@ -21,21 +21,26 @@ const users = [
 ];
 
 const siteConfig = {
-  githubHost: "github.ibm.com",
-  title: 'Reporting Documentation', // Title for your website.
-  tagline: 'A website for developer documentation and release information.',
-  organizationName: 'WH-GovHHS',
-  projectName: 'wcm-reporting-developer-book',
-  url: 'https://pages.github.ibm.com', // Your website URL
-  baseUrl: '/wcm-reporting-developer-book/', // The name of your GitHub project.
+  githubHost: "github.com",
+
+  //organizationName: 'WH-GovHHS',
+  //projectName: 'wcm-reporting-developer-book',
+  //url: 'https://pages.github.ibm.com', // Your website URL
+  //baseUrl: '/wcm-reporting-developer-book/', // The name of your GitHub project.
+
+    title: 'Reporting Documentation', // Title for your website.
+    tagline: 'A website for developer documentation and release information.',
+    organizationName: 'anthonyfarrelloylegate',
+    projectName: 'docusaurus-tutorial',
+    baseUrl: '/docusaurus-tutorial/', // The name of your GitHub project.
+
+    url: 'https://anthonyfarrelloylegate.github.io', // Your website URL
 
   // GIT_USER=anthonyfarrell CURRENT_BRANCH=master USE_SSH=true npm run publish-gh-pages
   headerLinks: [
     {doc: 'started/gettingStarted', label: 'Developer Docs'},
     {page: 'help', label: 'Help'}
   ],
-//GIT_USER=anthonyfarrell   CURRENT_BRANCH=master USE_SSH=false yarn run publish-gh-pages
-  // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
