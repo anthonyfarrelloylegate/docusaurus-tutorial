@@ -11,20 +11,20 @@ This page captures key information regarding release candidates & nightly builds
 The following release candidates are provided to the SDO team (usually Darren). Once created, a new message is posted on the #coc-wcm-release slack channel to specify the link to the new release candidate for the release.
 * The Release Candidates specified here are the only official release candidates
 
-The following table shows Reporting On Cloud releases.  See **[legacy Reporting releases here](https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/W5ee391b03445_49f2_9d54_a0d8a8181a8e/page/WCM%20Reporting%20Release%20Candidates)**.
+The following table shows Reporting On Cloud releases.  See **[Legacy Reporting releases here](https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/W5ee391b03445_49f2_9d54_a0d8a8181a8e/page/WCM%20Reporting%20Release%20Candidates)**.
 
 ## `Release Candidates`
-Please place most recent first!
 
-| Release  |Artifactory URL   |Sprint & Description  |
-|---|---|---|
-|19:06 | ?  | 1.1.74  |
-|19:05 | No release  | -  |
+| Release  |Artifactory URL   |Sprint & Description  |Date |
+|---|---|---|---|
+|19:06 | ?  | 1.1.74  |- |
+|19:05 | No release  | -  | -|
+
+
 
 ## `Internal Development Candidates`
-Please place most recent first!
 
-| Release  |Artifactory URL   |Build Number & URL  |
-|---|---|---|
-|19:05 | sample URL  | [build 41](https://scdelivery.mul.ie.ibm.com/job/sc-wcm-reporting/job/cloudreporting/job/reportingoncloud-build-rtc/416)  |  
-|19:04 | No release  | - |
+| Release  |Artifactory URL   |Build Number & URL  |Date |
+|---|---|---|---|
+|19:05 | [#41 Build Info](http://screpo1.mul.ie.ibm.com/webapp/#/builds/sc-wcm-reporting%20::%20cloudreporting%20::%20reportingoncloud-build-rtc/41/1556612842197/general/)  | [Build 41](https://scdelivery.mul.ie.ibm.com/job/sc-wcm-reporting/job/cloudreporting/job/reportingoncloud-build-rtc/41)  | 03/04/2019 | 
+|19:04 | No release  | - | - | 

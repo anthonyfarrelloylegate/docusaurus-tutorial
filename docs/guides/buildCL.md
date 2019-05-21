@@ -1,12 +1,12 @@
 ---
 id: buildCL
-title: Building from the command line
+title: Build Commands
 ---
 The following tasks allow you to build reporting projects and to create a release zip.
 
-Building the Java applications creates a fat jar files where the application code is bundled together with infra-structure code to create cloud friendly deployment artifacts.
+Building each of the Java applications creates a fat jar file where the application code is bundled together with infra-structure code to create cloud friendly deployment artifact.
 
-### Verify your build environment Building from the Command Line
+### Verify your build environment by building from the Command Line
 
 To verify your environment get a list of the Gradle tasks available.
 ```
@@ -24,9 +24,14 @@ scCreateZipRelease - Package the release zip
 
 ### Building All from the Command Line
 
-To build Reporting executable and to package a release zip execute the following commands.
+To build (compile & jar) all Reporting projects.
 ```
 ./gradlew bootJar
+```
+
+To create a distribution and release zip execute the following commands.
+
+```
 ./gradlew scCreateZipRelease
 ```
 
@@ -34,6 +39,6 @@ To build Reporting executable and to package a release zip execute the following
 
 To build an individual application run the following command for example, simply prepend the project name before the task name.
 
-```
+```sh
 ./gradlew :ETLApplication:bootJar
 ```

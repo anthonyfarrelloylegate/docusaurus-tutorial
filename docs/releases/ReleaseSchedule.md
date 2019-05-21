@@ -9,7 +9,7 @@ From the release schedule above for the next 2 release cycles the sprint dates a
 | Release  |Sprint   |Dates|
 |---|---|---|
 |19:06 | ~~1.1.72~~  |   ~~April 15 to April 26~~|
-|19:06 | 1.1.73  |   April 29 to May 9|
+|19:06 | ~~1.1.73~~  |   ~~April 29 to May 9~~|
 |19:06 | 1.1.74  |   May  13 to May 24|
 |19:08 | 1.1.75  |   May 27 to June 14|
 |19:08 | 1.1.76  |   June 14 to June 28|

@@ -1,6 +1,6 @@
 ---
 id: docbuild
-title: How to contribute to this site.
+title: How to contribute to this site
 ---
 
 The purpose of this book is to publish all the content associated with WCM Reporting and its sub-projects in a presentable, organised, and easy-to-use manner.

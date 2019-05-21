@@ -1,8 +1,42 @@
 {
   "docs": {
-    "Releases": ["releases/ReleaseSchedule","releases/rc", "releases/streams","releases/releaseprocess","releases/cipipeline","releases/fvtpipeline","releases/oss"],
-    "Getting Started": ["started/started", "started/rtc","started/git","started/bootstrap","started/projstruct","started/buildCL","started/runningCL","started/cipipeline"],
-    "Building Documentation": ["builddoc/docbuild"]
-
+    "Releases & Releasing": [
+      "releases/ReleaseSchedule",
+      "releases/rc",
+      "releases/rctakeon",
+      "releases/streams",
+      "releases/releaseprocess",
+      "releases/cipipeline",
+      "releases/fvtpipeline",
+      "releases/oss"
+    ],
+    "Getting Started": [
+      "started/gettingStarted",
+      "started/rtc",
+      "started/git",
+      "started/bootstrap",
+      "started/projstruct",
+      "started/buildingCL"
+    ],
+    "Guides": [
+          "guides/projectstructure",
+          "guides/buildCL",
+          "guides/usingarelease",
+          "guides/runningDBUpgrade",
+          "guides/runningDBCreation",
+          "guides/runningETL",
+          "guides/performingEncryption",
+          "guides/cognosTasks",
+          "guides/zipreleaseRun",
+          "guides/cipipeline",
+          {
+            "type": "subcategory",
+            "label": "Development Best Practices",
+            "ids": ["guides/devbestpractices"]
+          }
+    ],
+    "Building This Site": [
+      "builddoc/docbuild"
+    ]
   }
 }
